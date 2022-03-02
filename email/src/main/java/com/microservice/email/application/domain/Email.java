@@ -1,11 +1,11 @@
-package com.microservice.email.application.entities;
+package com.microservice.email.application.domain;
 
-import com.microservice.email.application.entities.enums.StatusEmail;
+import com.microservice.email.application.domain.enums.StatusEmail;
 
 import java.time.LocalDateTime;
 import java.util.UUID;
 
-public class EmailModel {
+public class Email {
 
     private UUID emailId;
     private String ownerRef;
